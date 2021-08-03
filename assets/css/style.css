@@ -769,7 +769,7 @@ input:focus {
     left: 0;
     bottom: 0;
     right: 147px;
-    z-index: -2;
+    z-index: -1;
     transition: 0.3s all ease-out;
     /* background-color: gainsboro; */
 }
@@ -930,12 +930,14 @@ input:focus {
 .page-two .cirlce-light-blue-wrapper {
     transition: 0.5s transform ease-out 0.2s;
     transform: rotate(-101deg) translateX(50px) translateY(110px) scale(0.3);
+    z-index: -2;
 
 }
 
 .page-three .cirlce-light-blue-wrapper {
     transition: 0.3s transform ease-out;
     transform: rotate(-111deg) translateY(90px) translateX(151px) scale(0.2);
+    z-index: 3;
 
 }
 
@@ -962,6 +964,10 @@ input:focus {
     .page-three .cirlce-light-blue-wrapper {
 
         transform: rotate(-120deg) translateY(98px) translateX(161px) scale(0.2);
+    }
+
+    .page-two .cirlce-light-blue-wrapper {
+        transform: rotate(-111deg) translateX(60px) translateY(120px) scale(0.3)
     }
 }
 
