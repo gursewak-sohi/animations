@@ -314,6 +314,8 @@ input:focus {
     font-size: 45px;
     font-weight: 700;
     height: 45px;
+    margin-bottom: 0;
+    -webkit-appearance: none;
 }
 
 .custom-input>input:focus {
