@@ -973,7 +973,7 @@ input:focus {
 
 @media (min-height: 737px) {
     .page-three .circle-blue-wrapper {
-        transform: rotate(-196deg) translateY(-130px);
+        transform: rotate(-208deg) translateY(-150px) translatex(-20px);
     }
 
     .page-two .circle-blue-wrapper {
@@ -981,15 +981,20 @@ input:focus {
     }
 
     .page-three .cirlce-light-blue-wrapper {
-        transition: 0.3s transform ease-out;
-        transform: rotate(-117deg) translateY(100px) translateX(181px) scale(0.2);
+
+        transform: rotate(-124deg) translateY(110px) translateX(211px) scale(0.2)
     }
 }
 
 @media (min-width: 500px) {
-    .page-three .circle-blue-wrapper {
-        transform: rotate(-207deg) translateY(-160px);
+    .page-three .cirlce-light-blue-wrapper {
+        transform: rotate(-124deg) translateY(97px) translateX(191px) scale(0.2);
     }
+
+    .page-two .cirlce-light-blue-wrapper {
+        transform: rotate(-111deg) translateX(60px) translateY(120px) scale(0.3);
+    }
+
 
     .page-three .cirlce-light-blue-wrapper {
         transform: rotate(-124deg) translateY(108px) translateX(191px) scale(0.2);
